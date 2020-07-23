@@ -1,0 +1,38 @@
+ul{
+ background-color:rgb(51,51,51);
+ list-style-type: none;
+ overflow:hidden;
+ margin:0;
+ padding:0;
+}
+li a{
+  color:white;
+  float:left;
+  text-decoration:none;
+  padding:15px;
+}
+main{
+  background-color:rgb(230,230,230);
+  box-shadow: 0px 0px 10px 0px grey;
+}
+.head{
+  padding-top:10px;
+}
+.satu{
+  padding-left:15px;
+  padding-right:15px;
+}
+p{
+  column-width:300px;
+  column-fill:balance;
+  column-span:all;
+  text-align:justify;
+  column-rule:2px solid black;
+  font-size:12px;
+}
+.footer{
+  background-color:black;
+  color:white;
+  padding-bottom:1px;
+  text-align:center;
+}
